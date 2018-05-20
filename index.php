@@ -1,7 +1,4 @@
-<?php 
-    echo "Hello Customers";    
-?>
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -12,6 +9,13 @@
     <script src="main.js"></script>
 </head>
 <body>
+<?php
+    function name()
+    {
+        echo  "Syed Zaman Mostafiz";
+    }
+    name();
+?>
     
 </body>
 </html>
